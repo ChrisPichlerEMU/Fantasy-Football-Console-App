@@ -3,10 +3,12 @@ package fantasy.Models;
 public class DraftSettings {
     private int numberOfTeams;
     private boolean isSnakeDraft;
+    private int draftPickOfUser;
 
-    public DraftSettings(int numberOfTeams, boolean isSnakeDraft) {
+    public DraftSettings(int numberOfTeams, boolean isSnakeDraft, int draftPickOfUser) {
         this.numberOfTeams = numberOfTeams;
         this.isSnakeDraft = isSnakeDraft;
+        this.draftPickOfUser = draftPickOfUser;
     }
 
     public int getNumberOfTeams() {
@@ -15,5 +17,9 @@ public class DraftSettings {
 
     public boolean isSnakeDraft() {
         return isSnakeDraft;
+    }
+
+    public int getDraftPickOfUser() {
+        return draftPickOfUser;
     }
 }

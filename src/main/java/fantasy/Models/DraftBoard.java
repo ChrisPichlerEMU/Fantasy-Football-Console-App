@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class DraftBoard {
     private ArrayList<Player> undraftedPlayers;
     private Team[] teams;
+    private int draftPickOfUser;
     private int round;
     private int currentTeamPicking;
     private int numberOfTeams;
@@ -13,6 +14,7 @@ public class DraftBoard {
 
     public DraftBoard(DraftSettings draftSettings) {
         undraftedPlayers = new ArrayList<>();
+        draftPickOfUser = draftSettings.getDraftPickOfUser();
         round = 1;
         currentTeamPicking = 1;
         this.numberOfTeams = draftSettings.getNumberOfTeams();
@@ -35,6 +37,10 @@ public class DraftBoard {
 
     public void setTeams(Team[] teams) {
         this.teams = teams;
+    }
+
+    public int getDraftPickOfUser() {
+        return draftPickOfUser;
     }
 
     public int getRound() {

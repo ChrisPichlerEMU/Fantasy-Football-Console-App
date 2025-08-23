@@ -23,6 +23,10 @@ public class Player {
         this.attributes = attributes;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
     public String getLastName() {
         return lastName;
     }

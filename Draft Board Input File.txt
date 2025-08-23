@@ -1,2 +1,6 @@
 Jamarr, Chase, CIN, 1, 1, WR, Playmaker, Best Player
 Ceedee, Lamb, DAL, 2, 1, WR
+Justin, Jefferson, MIN, 3, 1, WR
+Bijan, Robinson, ATL, 1, 1, RB
+Amon-Ra, St. Brown, DET, 4, 1, WR
+Brian, Robinson, SF, 2, 2, RB

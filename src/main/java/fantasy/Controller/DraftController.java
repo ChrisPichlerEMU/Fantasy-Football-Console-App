@@ -8,6 +8,7 @@ import fantasy.Utility.UserInput;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -27,26 +28,91 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
         Team[] teamsInDraft = new Team[draft.getNumberOfTeams()];
 
         for (int i = 0; i < teamsInDraft.length; i++) {
-            teamsInDraft[i] = new Team();
+            teamsInDraft[i] = new Team("Team " + (i + 1));
         }
 
         draft.setTeams(teamsInDraft);
     }
 
     public void run() {
-        if (draft.isSnakeDraft())
-            System.out.println("Starting the snake draft, good luck!");
-        else
-            System.out.println("Starting the non-snake draft, good luck!");
+        explainRulesOfProgram();
 
         while (!draft.getUndraftedPlayers().isEmpty()) {
-            boolean isValidInput = getInputFromUser();
+            System.out.println("\nRound: " + draft.getRound() + ", Pick: " + draft.getCurrentTeamPicking() + " - " + draft.getTeams()[draft.getCurrentTeamPicking() - 1].getName());
 
-            if (!isValidInput)
-                continue;
+            String nextAction = userInput().getNextActionFromUser();
 
-            setValueForNextPick();
+            boolean isValidInput = doUserInputAction(nextAction);
         }
+    }
+
+    private void explainRulesOfProgram() {
+        System.out.println("RULES OF PROGRAM:" +
+                "\nAfter each action is complete, you will be asked for user input, the following are your options for input:" +
+                "\nType \"Show Players\" or just click Enter to show the top 20 players in the rankings." +
+                "\nType a player's last name to draft a player to the next team picking." +
+                "\nType \"Show Teams\" to view the number of each position that each team in the draft currently has on their team." +
+                "\nType \"Name Team\" followed by an eligible draft position to name a specific team for when \"Show Teams\" is selected." +
+                "\nType \"Rules\" at any time to view this rule block again.\n");
+    }
+
+    private boolean doUserInputAction(String input) {
+        if (input.equalsIgnoreCase("Show Players") || input.isEmpty()) {
+            printTopOfDraftBoard();
+            return true;
+        }
+        else if (input.equalsIgnoreCase("Show Teams")) {
+            showPositionGroupOfEachTeam();
+            return true;
+        }
+        else if (input.equalsIgnoreCase("Name Team")) {
+            setNameOfTeam();
+            return true;
+        }
+        else if (input.equalsIgnoreCase("Rules")) {
+            explainRulesOfProgram();
+            return true;
+        }
+
+        ArrayList<Player> undraftedPlayersInDraft = draft.getUndraftedPlayers();
+        ArrayList<Integer> indexesOfPlayersWithLastNameOfUserInput = new ArrayList<>();
+        ArrayList<String> firstNamesOfPlayersWithLastNameOfUserInput = new ArrayList<>();
+
+        for (int i = 0; i < undraftedPlayersInDraft.size(); i++) {
+            if (input.equalsIgnoreCase(undraftedPlayersInDraft.get(i).getLastName())) {
+                indexesOfPlayersWithLastNameOfUserInput.add(i);
+                firstNamesOfPlayersWithLastNameOfUserInput.add(undraftedPlayersInDraft.get(i).getFirstName());
+            }
+        }
+
+        if (indexesOfPlayersWithLastNameOfUserInput.size() == 1) {
+            removePlayerFromDraftBoard(indexesOfPlayersWithLastNameOfUserInput.getFirst());
+            return true;
+        }
+        else if (indexesOfPlayersWithLastNameOfUserInput.isEmpty()) {
+            System.out.println(userInput + " is not a valid input. Please try again.");
+            return false;
+        }
+
+        return resolveMultiplePlayersHavingLastNameOfDraftedPlayer(indexesOfPlayersWithLastNameOfUserInput, firstNamesOfPlayersWithLastNameOfUserInput, input);
+    }
+
+    private void printTopOfDraftBoard() {
+        int numberOfPlayersPrinted = Math.min(draft.getUndraftedPlayers().size(), 20);
+
+        System.out.println("-----------------------------------------------");
+
+        for (int i = 0; i < numberOfPlayersPrinted; i++) {
+            System.out.println(draft.getUndraftedPlayers().get(i));
+        }
+    }
+
+    private void showPositionGroupOfEachTeam() {
+        int x = 5;
+    }
+
+    private void setNameOfTeam() {
+        int x = 5;
     }
 
     private Player getPlayerFromSplitLineOfInput(String[] lineOfInputText) {
@@ -79,47 +145,29 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
         };
     }
 
-    private boolean getInputFromUser() {
-        System.out.println("\nRound: " + draft.getRound() + ", Pick: " + draft.getCurrentTeamPicking());
-        printTopOfDraftBoard();
-
-        String input = userInput.getNameOfNextDraftedPlayer();
-
-        int indexOfChosenPlayer = getIndexOfInputString(input.trim());
-
-        if (indexOfChosenPlayer == -1) {
-            System.out.println("The input: " + input + " is invalid. Please try again.");
-            return false;
-        } else {
-            removePlayerFromDraftBoard(indexOfChosenPlayer);
-            return true;
-        }
-    }
-
-    private void printTopOfDraftBoard() {
-        int numberOfPlayersPrinted = Math.min(draft.getUndraftedPlayers().size(), 20);
-
-        System.out.println("-----------------------------------------------");
-
-        for (int i = 0; i < numberOfPlayersPrinted; i++) {
-            System.out.println(draft.getUndraftedPlayers().get(i));
-        }
-    }
-
-    private int getIndexOfInputString(String input) {
-        for (int i = 0; i < draft.getUndraftedPlayers().size(); i++) {
-            if (input.equalsIgnoreCase(draft.getUndraftedPlayers().get(i).getLastName()))
-                return i;
-        }
-
-        return -1;
-    }
-
     private void removePlayerFromDraftBoard(int indexOfPlayerToBeRemoved) {
         Player playerThatJustGotDrafted = draft.getUndraftedPlayers().get(indexOfPlayerToBeRemoved);
         draft.getTeams()[draft.getCurrentTeamPicking() - 1].getTeam().add(playerThatJustGotDrafted);
         draft.getUndraftedPlayers().remove(indexOfPlayerToBeRemoved);
         System.out.println(playerThatJustGotDrafted.getFullName() + " has been drafted.");
+        setValueForNextPick();
+    }
+
+    private boolean resolveMultiplePlayersHavingLastNameOfDraftedPlayer(
+            ArrayList<Integer> indexesOfPlayersWithLastNameOfUserInput,
+            ArrayList<String> firstNamesOfPlayersWithLastNameOfUserInput,
+            String input)
+    {
+        String firstNameOfDraftedPlayer = userInput.resolvePlayersHavingSameLastName(indexesOfPlayersWithLastNameOfUserInput, firstNamesOfPlayersWithLastNameOfUserInput, input);
+
+        for (int i = 0; i < firstNamesOfPlayersWithLastNameOfUserInput.size(); i++) {
+            if (firstNamesOfPlayersWithLastNameOfUserInput.get(i).equalsIgnoreCase(firstNameOfDraftedPlayer)) {
+                removePlayerFromDraftBoard(indexesOfPlayersWithLastNameOfUserInput.get(i));
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private void setValueForNextPick() {
