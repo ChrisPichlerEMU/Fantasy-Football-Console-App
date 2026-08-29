@@ -1,284 +1,162 @@
 Gibbs, Jahmyr, DET, 1, 1, RB
 Robinson, Bijan, ATL, 2, 2, RB
+McCaffrey, Christian, SF, 3, 3, RB, DO NOT DRAFT (ESPN), PLAYER TO PASS ON (ESPN), MOST LIKELY TO REGRESS (ESPN)
 Chase, Ja'Marr, CIN, 4, 1, WR
 Nacua, Puka, LAR, 5, 2, WR
-McCaffrey, Christian, SF, 3, 3, RB, DO NOT DRAFT (ESPN), PLAYER TO PASS ON (ESPN), MOST LIKELY TO REGRESS (ESPN)
 Smith-Njigba, Jaxon, SEA, 6, 3, WR, RB, Bowen Favorite Player (ESPN)
 St. Brown, Amon-Ra, DET, 7, 4, WR
-Lamb, CeeDee, DAL, 10, 5, WR
 Taylor, Jonathan, IND, 8, 4, RB, Bowen Favorite Player (ESPN)
 Cook, James, BUF, 9, 5, RB, Do Draft List (ESPN)
+Lamb, CeeDee, DAL, 10, 5, WR
 Achane, De'Von, MIA, 11, 6, RB, PLAYER TO PASS ON (ESPN)
 Walker, Kenneth, KC, 12, 7, RB, DO NOT DRAFT (ESPN), Breakout Candidate (ESPN), Great Opportunity (ESPN), Breakout Candidate (UDK)
 Brown, Chase, CIN, 13, 8, RB, Do Draft List (ESPN)
 Jefferson, Justin, MIN, 16, 6, WR, Do Draft List (ESPN)
+Bowers, Brock, LV, 15, 1, TE
+McBride, Trey, ARI, 17, 2, TE
 Brown, A.J., NE, 18, 7, WR, DO NOT DRAFT (ESPN)
 Olave, Chris, NO, 19, 8, WR
-Bowers, Brock, LV, 15, 1, TE
 Collins, Nico, HOU, 20, 9, WR
-McBride, Trey, ARI, 17, 2, TE
 Wilson, Garrett, NYJ, 22, 11, WR, Draft Day Target (ESPN)
 London, Drake, ATL, 21, 10, WR
+Hampton, Omarion, LAC, 23, 10, RB, Draft Day Target (ESPN), Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN), Breakout Candidate (UDK)
 Pickens, George, DAL, 24, 12, WR
 Rice, Rashee, KC, 25, 13, WR, DO NOT DRAFT (ESPN)
-Hampton, Omarion, LAC, 23, 10, RB, Draft Day Target (ESPN), Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN), Breakout Candidate (UDK)
 Jeanty, Ashton, LV, 14, 9, RB
 Nabers, Malik, NYG, 26, 14, WR, DO NOT DRAFT (ESPN), PLAYER TO PASS ON (ESPN), BUST (UDK)
 Barkley, Saquon, PHI, 28, 12, RB
 Flowers, Zay, BAL, 29, 15, WR, Do Draft List (ESPN)
-Henry, Derrick, BAL, 27, 11, RB, Do Draft List (ESPN), Good Value (UDK)
 Smith, DeVonta, PHI, 30, 16, WR
 Waddle, Jaylen, DEN, 31, 17, WR, Breakout Candidate (ESPN), Good Value (UDK)
-Love, Jeremiyah, ARI, 37, 14, RB, Breakout Candidate (ESPN), BUST (UDK)
-Williams, Kyren, LAR, 38, 15, RB, DO NOT DRAFT (ESPN), MOST LIKELY TO BUST (ESPN)
 McConkey, Ladd, LAC, 34, 20, WR, My Guy (UDK)
-Hall, Breece, NYJ, 40, 16, RB, Draft Day Target (ESPN)
+Henry, Derrick, BAL, 27, 11, RB, Do Draft List (ESPN), Good Value (UDK)
 Egbuka, Emeka, TB, 32, 18, WR, RB, Bowen Favorite Player (ESPN), Breakout Candidate (ESPN), Good Value (UDK)
-Swift, D'Andre, CHI, 42, 17, RB, Good Value (UDK)
 McMillan, Tetairoa, CAR, 33, 19, WR, Breakout Candidate (UDK)
 Higgins, Tee, CIN, 36, 21, WR
+Love, Jeremiyah, ARI, 37, 14, RB, Breakout Candidate (ESPN), BUST (UDK)
+Williams, Kyren, LAR, 38, 15, RB, DO NOT DRAFT (ESPN), MOST LIKELY TO BUST (ESPN)
 Tate, Carnell, TEN, 39, 22, WR, Drumbeat Player (ESPN), Breakout Candidate (ESPN), Breakout Candidate (UDK), My Guy (UDK)
-Williams, Javonte, DAL, 44, 18, RB, Do Draft List (ESPN), Most Underrated (ESPN), Good Value (UDK)
-Allen, Josh, BUF, 0, 1, QB
+Hall, Breece, NYJ, 40, 16, RB, Draft Day Target (ESPN)
 Burden, Luther, CHI, 41, 23, WR, RB, Bowen Favorite Player (ESPN)
-Skattebo, Cam, NYG, 50, 20, RB, Draft Day Target (ESPN), DO NOT DRAFT (ESPN), Good Value (UDK)
-Irving, Bucky, TB, 49, 19, RB, DO NOT DRAFT (ESPN)
+Swift, D'Andre, CHI, 42, 17, RB, Good Value (UDK)
 Washington, Parker, JAX, 46, 26, WR, Sleeper (UDK)
 Watson, Christian, GB, 43, 24, WR, Top Late Round Flyer (ESPN), Breakout Candidate (UDK)
-Etienne Jr., Travis, NO, 56, 21, RB, DO NOT DRAFT (ESPN)
+Williams, Javonte, DAL, 44, 18, RB, Do Draft List (ESPN), Most Underrated (ESPN), Good Value (UDK)
 McLaurin, Terry, WAS, 45, 25, WR, Draft Day Target (ESPN), Best Bounce Back Player (ESPN), Great Opportunity (ESPN), Good Value (UDK)
 Williams, Jameson, DET, 47, 27, WR, Do Draft List (ESPN)
 Moore, DJ, BUF, 48, 28, WR, BUST (UDK)
-Tuten, Bhayshul, JAX, 59, 22, RB, Great Opportunity (ESPN), Breakout Candidate (UDK)
+Skattebo, Cam, NYG, 50, 20, RB, Draft Day Target (ESPN), DO NOT DRAFT (ESPN), Good Value (UDK)
+Irving, Bucky, TB, 49, 19, RB, DO NOT DRAFT (ESPN)
 Adams, Davante, LAR, 51, 29, WR, PLAYER TO PASS ON (ESPN)
+Warren, Tyler, IND, 52, 3, TE
 Evans, Mike, SF, 53, 30, WR, Do Draft List (ESPN)
+Loveland, Colston, CHI, 54, 4, TE, RB, Bowen Favorite Player (ESPN), Breakout Candidate (UDK), My Guy (UDK)
 Odunze, Rome, CHI, 55, 31, WR
+Etienne Jr., Travis, NO, 56, 21, RB, DO NOT DRAFT (ESPN)
 Harrison Jr., Marvin, ARI, 57, 32, WR, DO NOT DRAFT (ESPN)
 Metcalf, DK, PIT, 58, 33, WR
-Warren, Tyler, IND, 52, 3, TE
-Loveland, Colston, CHI, 54, 4, TE, RB, Bowen Favorite Player (ESPN), Breakout Candidate (UDK), My Guy (UDK)
+Tuten, Bhayshul, JAX, 59, 22, RB, Great Opportunity (ESPN), Breakout Candidate (UDK)
 Pierce, Alec, IND, 60, 34, WR
 Thomas Jr., Brian, JAX, 61, 35, WR, Good Value (UDK)
+Fannin Jr., Harold, CLE, 65, 5, TE, Draft Day Target (ESPN), Breakout Candidate (UDK)
 Judkins, Quinshon, CLE, 63, 24, RB, Drumbeat Player (ESPN)
+Godwin Jr., Chris, TB, 64, 36, WR, Draft Day Target (ESPN)
 Henderson, TreVeyon, NE, 62, 23, RB, DO NOT DRAFT (ESPN)
 Montgomery, David, HOU, 66, 25, RB, Do Draft List (ESPN)
-Jackson, Lamar, BAL, 0, 2, QB
-Godwin Jr., Chris, TB, 64, 36, WR, Draft Day Target (ESPN)
-Price, Jadarian, SEA, 68, 26, RB, Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN), Top Late Round Flyer (ESPN)
-Stevenson, Rhamondre, NE, 81, 29, RB
 Johnston, Quentin, LAC, 67, 37, WR, Sleeper (UDK)
+Price, Jadarian, SEA, 68, 26, RB, Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN), Top Late Round Flyer (ESPN)
 Pittman Jr., Michael, PIT, 69, 38, WR, Draft Day Target (ESPN), Great Opportunity (ESPN)
-Dowdle, Rico, PIT, 75, 27, RB, Sleeper (UDK)
+Kraft, Tucker, GB, 70, 6, TE, Drumbeat Player (ESPN), Do Draft List (ESPN)
+Stevenson, Rhamondre, NE, 81, 29, RB
 Robinson, Wan'Dale, TEN, 71, 39, WR, Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN)
-Fannin Jr., Harold, CLE, 65, 5, TE, Draft Day Target (ESPN), Breakout Candidate (UDK)
-Croskey-Merritt, Jacory, WAS, 78, 28, RB, Sleeper (UDK)
+Kittle, George, SF, 72, 7, TE
+LaPorta, Sam, DET, 73, 8, TE, Good Value (UDK)
 Wilson, Michael, ARI, 74, 40, WR
+Dowdle, Rico, PIT, 75, 27, RB, Sleeper (UDK)
 Diggs, Stefon, WAS, 76, 41, WR
+Jacobs, Josh, GB, 35, 13, RB, Do Draft List (ESPN)
 Sutton, Courtland, DEN, 77, 42, WR, BUST (UDK)
-Gainwell, Kenny, TB, 82, 30, RB, Draft Day Target (ESPN), Do Draft List (ESPN), Top Late Round Flyer (ESPN)
-Warren, Jaylen, PIT, 84, 31, RB
 Addison, Jordan, MIN, 79, 43, WR, Do Draft List (ESPN)
 Stribling, De'Zhaun, SF, 88, 46, WR, Drumbeat Player (ESPN), Sleeper (UDK)
-Daniels, Jayden, WAS, 0, 3, QB
-Kraft, Tucker, GB, 70, 6, TE, Drumbeat Player (ESPN), Do Draft List (ESPN)
-Hurts, Jalen, PHI, 0, 4, QB
-Burrow, Joe, CIN, 0, 5, QB
+Pitts Sr., Kyle, ATL, 80, 9, TE, DO NOT DRAFT (ESPN)
+Croskey-Merritt, Jacory, WAS, 78, 28, RB, Sleeper (UDK)
+Gainwell, Kenny, TB, 82, 30, RB, Draft Day Target (ESPN), Do Draft List (ESPN), Top Late Round Flyer (ESPN)
 Reed, Jayden, GB, 83, 44, WR
-Kittle, George, SF, 72, 7, TE
-Hubbard, Chuba, CAR, 85, 32, RB, DO NOT DRAFT (ESPN), BUST (UDK)
-Dobbins, J.K., DEN, 93, 34, RB, Do Draft List (ESPN), Good Value (UDK)
-Pollard, Tony, TEN, 92, 33, RB, DO NOT DRAFT (ESPN)
+Warren, Jaylen, PIT, 84, 31, RB
 Downs, Josh, IND, 86, 45, WR, Draft Day Target (ESPN), Do Draft List (ESPN), Best Late Round Value (ESPN), Sleeper (UDK)
-Brooks, Jonathon, CAR, 111, 37, RB, Sleeper (UDK)
+Johnson, Juwan, NO, 87, 10, TE
+Schultz, Dalton, HOU, 89, 11, TE
 Meyers, Jakobi, JAX, 90, 47, WR, Draft Day Target (ESPN)
-Jacobs, Josh, GB, 35, 13, RB, Do Draft List (ESPN)
+Kelce, Travis, KC, 91, 12, TE
+Hubbard, Chuba, CAR, 85, 32, RB, DO NOT DRAFT (ESPN), BUST (UDK)
+Pollard, Tony, TEN, 92, 33, RB, DO NOT DRAFT (ESPN)
 Doubs, Romeo, NE, 96, 49, WR
-LaPorta, Sam, DET, 73, 8, TE, Good Value (UDK)
+Dobbins, J.K., DEN, 93, 34, RB, Do Draft List (ESPN), Good Value (UDK)
+Brooks, Jonathon, CAR, 111, 37, RB, Sleeper (UDK)
 Shakir, Khalil, BUF, 94, 48, WR
-Monangai, Kyle, CHI, 106, 35, RB
+Ferguson, Jake, DAL, 95, 13, TE, RB, Bowen Favorite Player (ESPN), Breakout Candidate (ESPN), BUST (UDK)
 Lemon, Makai, PHI, 97, 50, WR
 Worthy, Xavier, KC, 98, 51, WR
 Washington, Malik, MIA, 99, 52, WR, Do Draft List (ESPN)
-Mason, Jordan, MIN, 108, 36, RB, RB, Bowen Favorite Player (ESPN), Sleeper (UDK)
-Coker, Jalen, CAR, 102, 53, WR, Draft Day Target (ESPN), RB, Bowen Favorite Player (ESPN)
-Shaheed, Rashid, SEA, 105, 55, WR
-Concepcion, KC, CLE, 104, 54, WR
-Boutte, Kayshon, NE, 170, 84, WR
-Maye, Drake, NE, 0, 6, QB
-White, Rachaad, WAS, 112, 38, RB, Do Draft List (ESPN)
-Dart, Jaxson, QB, 0, 7, QB
-Pitts Sr., Kyle, ATL, 80, 9, TE, DO NOT DRAFT (ESPN)
-Williams, Caleb, CHI, 0, 8, QB
-Allen, Keenan, IND, 109, 56, WR
-Lawrence, Trevor, JAX, 0, 9, QB
-Golden, Matthew, GB, 110, 57, WR
-Corum, Blake, LAR, 114, 39, RB, Drumbeat Player (ESPN), Draft Day Target (ESPN), Sleeper (UDK)
-Harvey, RJ, DEN, 116, 40, RB, BUST (UDK)
-Spears, Tyjae, TEN, 117, 41, RB
-Johnson, Juwan, NO, 87, 10, TE
-Tyson, Jordyn, NO, 115, 58, WR
-Schultz, Dalton, HOU, 89, 11, TE
-Kelce, Travis, KC, 91, 12, TE
-Tucker, Tre, LV, 118, 59, WR
-Jones, Aaron, MIN, 122, 42, RB
-Lloyd, MarShawn, GB, 188, 57, RB
-Ferguson, Jake, DAL, 95, 13, TE, RB, Bowen Favorite Player (ESPN), Breakout Candidate (ESPN), BUST (UDK)
-Prescott, Dak, DAL, 0, 10, QB
-Kincaid, Dalton, BUF, 101, 15, TE, Do Draft List (ESPN), BUST (UDK)
 Likely, Isaiah, NYG, 100, 14, TE, RB, Bowen Favorite Player (ESPN), Sleeper (UDK)
-Herbert, Justin, LAC, 0, 11, QB
+Kincaid, Dalton, BUF, 101, 15, TE, Do Draft List (ESPN), BUST (UDK)
+Coker, Jalen, CAR, 102, 53, WR, Draft Day Target (ESPN), RB, Bowen Favorite Player (ESPN)
 Goedert, Dallas, PHI, 103, 16, TE, DO NOT DRAFT (ESPN), PLAYER TO PASS ON (ESPN)
-Nix, Bo, DEN, 0, 12, QB
-Purdy, Brock, SF, 0, 13, QB
-Cooper, Omar, NYJ, 123, 61, WR
-Goff, Jared, DET, 0, 13, QB
-Samuel, Deebo, SF, 121, 60, WR
-Shough, Tyler, NO, 0, 14, QB
-Stafford, Matthew, LAR, 0, 15, QB
-Murray, Kyler, ARI, 0, 16, QB
-Boston, Denzel, CLE, 125, 63, WR
+Shaheed, Rashid, SEA, 105, 55, WR
+Monangai, Kyle, CHI, 106, 35, RB
+Boutte, Kayshon, NE, 170, 84, WR
+Concepcion, KC, CLE, 104, 54, WR
 Strange, Brenton, JAX, 107, 17, TE, Good Value (UDK)
-Wicks, Dontayvion, PHI, 128, 64, WR
+Mason, Jordan, MIN, 108, 36, RB, RB, Bowen Favorite Player (ESPN), Sleeper (UDK)
+Allen, Keenan, IND, 109, 56, WR
+Golden, Matthew, GB, 110, 57, WR
+White, Rachaad, WAS, 112, 38, RB, Do Draft List (ESPN)
 Andrews, Mark, BAL, 113, 18, TE, Do Draft List (ESPN)
-Nailor, Jalen, LV, 132, 66, WR, RB, Bowen Favorite Player (ESPN), Top Late Round Flyer (ESPN)
-Marks, Woody, HOU, 135, 43, RB
+Corum, Blake, LAR, 114, 39, RB, Drumbeat Player (ESPN), Draft Day Target (ESPN), Sleeper (UDK)
 Henry, Hunter, NE, 119, 19, TE, Do Draft List (ESPN)
+Tyson, Jordyn, NO, 115, 58, WR
+Harvey, RJ, DEN, 116, 40, RB, BUST (UDK)
+Tucker, Tre, LV, 118, 59, WR
 Okonkwo, Chig, WAS, 120, 20, TE, Great Opportunity (ESPN), Sleeper (UDK)
-Rodriguez, Chris, JAX, 139, 44, RB, Do Draft List (ESPN)
+Lloyd, MarShawn, GB, 188, 57, RB
+Jones, Aaron, MIN, 122, 42, RB
+Spears, Tyjae, TEN, 117, 41, RB
+Cooper, Omar, NYJ, 123, 61, WR
+Jennings, Jauan, MIN, 124, 62, WR
+Samuel, Deebo, SF, 121, 60, WR
+Boston, Denzel, CLE, 125, 63, WR
+Dulcich, Greg, MIA, 126, 21, TE
+Hockenson, T.J., MIN, 127, 22, TE, Do Draft List (ESPN)
+Wicks, Dontayvion, PHI, 128, 64, WR
+Sadiq, Kenyon, NYJ, 130, 23, TE, Breakout Candidate (ESPN)
+Freiermuth, Pat, PIT, 131, 24, TE
+Nailor, Jalen, LV, 132, 66, WR, RB, Bowen Favorite Player (ESPN), Top Late Round Flyer (ESPN)
+Otton, Cade, TB, 133, 25, TE
 Hunter, Travis, JAX, 134, 67, WR
+Marks, Woody, HOU, 135, 43, RB
 Kupp, Cooper, SEA, 136, 68, WR
 Jeudy, Jerry, CLE, 137, 69, WR
 Bryant, Pat, DEN, 138, 70, WR
-Pacheco, Isiah, DET, 141, 45, RB
 Douglas, DeMario, NE, 162, 80, WR
-Mitchell, Keaton, LAC, 146, 46, RB
-Mitchell, Adonai, NYJ, 143, 72, WR
+Rodriguez, Chris, JAX, 139, 44, RB, Do Draft List (ESPN)
+Barner, AJ, SEA, 140, 26, TE
+Pacheco, Isiah, DET, 141, 45, RB
 Lane, Ja'Kobi, BAL, 142, 71, WR
 Dell, Tank, HOU, 129, 65, WR
+Mitchell, Adonai, NYJ, 143, 72, WR
 Bernard, Germie, PIT, 144, 73, WR, RB, Bowen Favorite Player (ESPN)
-Charbonnet, Zach, SEA, 150, 47, RB
 Allen, Cyrus, KC, 145, 74, WR
-Allgeier, Tyler, ARI, 153, 49, RB
-Sampson, Dylan, CLE, 151, 48, RB
+Mitchell, Keaton, LAC, 146, 46, RB
 Williams, Kyle, NE, 208, 103, WR
 Ridley, Calvin, TEN, 147, 75, WR
-Hockenson, T.J., MIN, 127, 22, TE, Do Draft List (ESPN)
-Washington Jr., Mike, LV, 200, 61, RB
-Dulcich, Greg, MIA, 126, 21, TE
-Sadiq, Kenyon, NYJ, 130, 23, TE, Breakout Candidate (ESPN)
-Coleman, Jonah, DEN, 156, 50, RB
-Harris, Tre, LAC, 152, 76, WR
-Coleman, Keon, BUF, 154, 77, WR
-Tracy, Tyrone, NYG, 161, 51, RB
-Freiermuth, Pat, PIT, 131, 24, TE
-Branch, Zachariah, ATL, 159, 79, WR
-Flournoy, Ryan, DAL, 158, 78, WR
-Otton, Cade, TB, 133, 25, TE
-Bigsby, Tank, PHI, 166, 52, RB
-Kamara, Alvin, NO, 167, 53, RB, Do Draft List (ESPN)
-Douglas, Caleb, MIA, 163, 81, WR
-Slayton, Darius, NYG, 169, 83, WR
-Robinson, Brian, ATL, 173, 54, RB
-Vele, Devaughn, NO, 172, 85, WR
-Barner, AJ, SEA, 140, 26, TE
-Noel, Jaylin, HOU, 174, 86, WR
 Gadsden, Oronde, LAC, 148, 27, TE, BUST (UDK)
-Mooney, Darnell, NYG, 175, 87, WR
-Bateman, Rashod, BAL, 178, 90, WR
-Tolbert, Jalen, MIA, 176, 88, WR
-Horton, Tory, SEA, 177, 89, WR
-Jennings, Jauan, MIN, 124, 62, WR
-TeSlaa, Isaac, DET, 179, 91, WR
-Njoku, David, LAC, 155, 29, TE
-McMillan, Jalen, TB, 180, 92, WR
 Parkinson, Colby, LAR, 149, 28, TE
-Williams, Antonio, WAS, 181, 93, WR
-Gesicki, Mike, CIN, 160, 31, TE
+Charbonnet, Zach, SEA, 150, 47, RB
+Harris, Tre, LAC, 152, 76, WR
+Allgeier, Tyler, ARI, 153, 49, RB
+Sampson, Dylan, CLE, 151, 48, RB
+Coleman, Keon, BUF, 154, 77, WR
+Njoku, David, LAC, 155, 29, TE
+Coleman, Jonah, DEN, 156, 50, RB
 Waller, Darren, CAR, 157, 30, TE
-Bech, Jack, LV, 182, 94, WR, Breakout Candidate (ESPN)
-Vidal, Kimani, LAC, 186, 56, RB
-James, Jordan, SF, 185, 55, RB
-Hill, Justice, BAL, 190, 58, RB
-Franklin, Troy, DEN, 183, 95, WR
-Bell, Chris, MIA, 189, 96, WR
-Perine, Samaje, CIN, 195, 59, RB
-Johnson, Emmett, KC, 198, 60, RB
-Ayomanor, Elic, TEN, 191, 97, WR
-Iosivas, Andrei, CIN, 194, 98, WR
-Thornton, Tyquan, KC, 196, 99, WR
-Johnson, Tez, TB, 199, 100, WR
-Singleton, Nicholas, TEN, 202, 62, RB
-Johnson, Ty, BUF, 206, 63, RB
-Dike, Chimere, TEN, 203, 101, WR
-Allen Jr., LeQuint, JAX, 237, 74, RB
-Fields, Malachi, NYG, 204, 102, WR
-Dotson, Jahan, ATL, 211, 105, WR
-Brooks, Chris, GB, 212, 64, RB
-Conner, James, ARI, 213, 65, RB
-Kirk, Christian, SF, 214, 106, WR
-Allen, Braelon, NYJ, 216, 66, RB
-Bourne, Kendrick, ARI, 215, 107, WR
-Black, Kaelon, SF, 226, 70, RB, RB, Bowen Favorite Player (ESPN)
-Allen, Kaytron, WAS, 253, 79, RB, RB, Bowen Favorite Player (ESPN)
-Hutchinson, Xavier, HOU, 165, 82, WR
-Musgrave, Luke, GB, 205, 41, TE
-Sanders, Ja'Tavion, CAR, 207, 42, TE
-Johnson, Theo, NYG, 209, 43, TE
-Hurst III, Ted, TB, 210, 104, WR
-Holani, George, SEA, 217, 67, RB
-Gray, Noah, KC, 218, 44, TE
-Benson, Malik, LV, 219, 108, WR
-Lance, Bryce, NO, 220, 109, WR
-Davis, Isaiah, NYJ, 221, 68, RB
-Giddens, DJ, IND, 222, 69, RB
-Raymond, Kalif, CHI, 223, 110, WR
-Wilson, Roman, PIT, 224, 111, WR
-Tremble, Tommy, CAR, 225, 45, TE
-Zaccheaus, Olamide, ATL, 227, 112, WR
-Neal, Devin, NO, 228, 71, RB
-Mims Jr., Marvin, DEN, 229, 113, WR
-Ford, Jerome, WAS, 230, 72, RB
-Whittington, Jordan, LAR, 231, 114, WR
-Arroyo, Elijah, SEA, 232, 46, TE
-Smith, Brashard, KC, 233, 73, RB
-Hollins, Mack, NE, 234, 115, WR
-Burks, Treylon, WAS, 235, 116, WR
-Washington, Darnell, PIT, 236, 47, TE
-Klare, Max, LAR, 238, 48, TE
-Tonges, Jake, SF, 239, 49, TE
-Davis, Ray, BUF, 240, 75, RB
-Thornton Jr., Dont'e, LV, 241, 117, WR
-Thompson, Brenen, LAC, 242, 118, WR
-Legette, Xavier, CAR, 243, 119, WR
-Blue, Jaydon, DAL, 244, 76, RB
-Sarratt, Elijah, BAL, 245, 120, WR
-Sinnott, Ben, WAS, 246, 50, TE
-Wilson, Emanuel, SEA, 247, 77, RB
-Bell, Skyler, BUF, 248, 121, WR
-Jefferson, Van, WAS, 249, 122, WR
-Wright, Jaylen, MIA, 250, 78, RB
-Atwell, Tutu, MIA, 251, 123, WR
-Austin III, Calvin, NYG, 252, 124, WR
-Walker, Devontez, BAL, 254, 125, WR
-Demercado, Emari, KC, 255, 80, RB
-Singletary, Devin, NYG, 256, 81, RB
-Lane, Jaylin, WAS, 257, 126, WR
-Fant, Noah, NO, 258, 51, TE
-Tucker, Sean, TB, 259, 82, RB
-Claiborne, Demond, MIN, 260, 83, RB
-Brown, Hollywood, PHI, 261, 127, WR
-Etienne, Trevor, CAR, 262, 84, RB
-Tillman, Cedric, CLE, 263, 128, WR
-Gordon II, Ollie, MIA, 264, 85, RB
-Brazzell II, Chris, CAR, 265, 129, WR
-Thomas, Zavion, CHI, 266, 130, WR
-Shipley, Will, PHI, 267, 86, RB
-Dillon, AJ, CAR, 268, 87, RB
-Joly, Justin, DEN, 269, 52, TE
-Randall, Adam, BAL, 270, 88, RB
-Johnson, Kaleb, PIT, 271, 89, RB
-Brooks, Tahj, CIN, 272, 90, RB
-Boerkircher, Nate, JAX, 273, 53, TE
-Law, Kendrick, DET, 274, 131, WR
-Delp, Oscar, NO, 275, 54, TE
-Estimé, Audric, NO, 276, 91, RB
+Flournoy, Ryan, DAL, 158, 78, WR
