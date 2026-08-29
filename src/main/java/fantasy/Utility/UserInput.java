@@ -21,7 +21,7 @@ public class UserInput {
     }
 
     public String getNextActionFromUser() {
-        System.out.print("\nPlease type the last name of the next drafted player, \"Show Players\" (or click Enter), \"Show Teams\", \"Name Team\" or \"Rules\": ");
+        System.out.print("\nPlease type the last name of the next drafted player, a position, \"Show Players\" (or click Enter), \"Show Teams\", \"Name Team\" or \"Rules\": ");
         return scanner.nextLine();
     }
 

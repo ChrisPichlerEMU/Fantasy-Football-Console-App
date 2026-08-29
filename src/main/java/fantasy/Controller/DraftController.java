@@ -19,11 +19,15 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
         String inputFileName = "Draft Board Input File.txt";
         Scanner inputFileScanner = new Scanner(new File(inputFileName));
 
+        ArrayList<Player> playersInInputFile = new ArrayList<>();
+
         while (inputFileScanner.hasNext()) {
             String nextLine = inputFileScanner.nextLine();
             String[] nextLineSeparatedByComma = nextLine.split(",");
-            draft.getUndraftedPlayers().add(getPlayerFromSplitLineOfInput(nextLineSeparatedByComma));
+            playersInInputFile.add(getPlayerFromSplitLineOfInput(nextLineSeparatedByComma));
         }
+
+        draft.setUndraftedPlayers(playersInInputFile);
 
         Team[] teamsInDraft = new Team[draft.getNumberOfTeams()];
 
@@ -38,7 +42,7 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
         explainRulesOfProgram();
 
         while (!draft.getUndraftedPlayers().isEmpty()) {
-            System.out.println("\nRound: " + draft.getRound() + ", Pick: " + draft.getCurrentTeamPicking() + " - " + draft.getTeams()[draft.getCurrentTeamPicking() - 1].getName());
+            System.out.println("\nRound: " + draft.getRound() + ", Pick: " + draft.getCurrentPickInRound() + " - " + draft.getTeams()[draft.getCurrentTeamPicking() - 1].getName());
 
             String nextAction = userInput().getNextActionFromUser();
 
@@ -49,8 +53,9 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
     private void explainRulesOfProgram() {
         System.out.println("RULES OF PROGRAM:" +
                 "\nAfter each action is complete, you will be asked for user input, the following are your options for input:" +
-                "\nType \"Show Players\" or just click Enter to show the top 20 players in the rankings." +
+                "\nType \"Show Players\" or just click Enter to show the top 30 players in the rankings." +
                 "\nType a player's last name to draft a player to the next team picking." +
+                "\nType a position (\"QB\", \"RB\", \"WR\", \"TE\", or \"DEF\") to print the top 20 players in that position. " +
                 "\nType \"Show Teams\" to view the number of each position that each team in the draft currently has on their team." +
                 "\nType \"Name Team\" followed by an eligible draft position to name a specific team for when \"Show Teams\" is selected." +
                 "\nType \"Rules\" at any time to view this rule block again.\n");
@@ -73,6 +78,9 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
             explainRulesOfProgram();
             return true;
         }
+        else if (checkIfInputIsAPosition(input)) {
+            return true;
+        }
 
         ArrayList<Player> undraftedPlayersInDraft = draft.getUndraftedPlayers();
         ArrayList<Integer> indexesOfPlayersWithLastNameOfUserInput = new ArrayList<>();
@@ -90,7 +98,7 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
             return true;
         }
         else if (indexesOfPlayersWithLastNameOfUserInput.isEmpty()) {
-            System.out.println(userInput + " is not a valid input. Please try again.");
+            System.out.println(input + " is not a valid input. Please try again.");
             return false;
         }
 
@@ -98,7 +106,7 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
     }
 
     private void printTopOfDraftBoard() {
-        int numberOfPlayersPrinted = Math.min(draft.getUndraftedPlayers().size(), 20);
+        int numberOfPlayersPrinted = Math.min(draft.getUndraftedPlayers().size(), 30);
 
         System.out.println("-----------------------------------------------");
 
@@ -115,9 +123,46 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
         int x = 5;
     }
 
+    private boolean checkIfInputIsAPosition(String input) {
+        switch (input) {
+            case "QB":
+                printSpecificPosition(Position.QB);
+                return true;
+            case "RB":
+                printSpecificPosition(Position.RB);
+                return true;
+            case "WR" :
+                printSpecificPosition(Position.WR);
+                return true;
+            case "TE":
+                printSpecificPosition(Position.TE);
+                return true;
+            case "DEF":
+                printSpecificPosition(Position.DEF);
+                return true;
+        };
+
+        return false;
+    }
+
+    private void printSpecificPosition(Position position) {
+        int playersPrinted = 0;
+
+        ArrayList<Player> undraftedPlayers = draft.getUndraftedPlayers();
+
+        for (int i = 0; i < undraftedPlayers.size() && playersPrinted < 20; i++) {
+            Player nextPlayer = undraftedPlayers.get(i);
+
+            if (nextPlayer.getPosition() == position) {
+                System.out.println(nextPlayer);
+                playersPrinted++;
+            }
+        }
+    }
+
     private Player getPlayerFromSplitLineOfInput(String[] lineOfInputText) {
-        String firstName = lineOfInputText[0];
-        String lastName = lineOfInputText[1].trim();
+        String lastName = lineOfInputText[0];
+        String firstName = lineOfInputText[1].trim();
         String team = lineOfInputText[2].trim();
         int rank = Integer.parseInt(lineOfInputText[3].trim());
         int tier = Integer.parseInt(lineOfInputText[4].trim());
@@ -174,14 +219,18 @@ public record DraftController(DraftBoard draft, UserInput userInput) {
         if (draft.isSnakeDraft()) {
             if (draft.getCurrentTeamPicking() < draft.getNumberOfTeams() && draft.isDraftOrderIsAscending()) {
                 draft.setCurrentTeamPicking(draft.getCurrentTeamPicking() + 1);
+                draft.setCurrentPickInRound(draft.getCurrentPickInRound() + 1);
             } else if (draft.getCurrentTeamPicking() > 1 && !draft.isDraftOrderIsAscending()) {
                 draft.setCurrentTeamPicking(draft.getCurrentTeamPicking() - 1);
+                draft.setCurrentPickInRound(draft.getCurrentPickInRound() + 1);
             } else if (draft.getCurrentTeamPicking() == draft.getNumberOfTeams() && draft.isDraftOrderIsAscending()) {
                 draft.setDraftOrderIsAscending(false);
                 draft.setRound(draft.getRound() + 1);
+                draft.setCurrentPickInRound(1);
             } else if (draft.getCurrentTeamPicking() == 1 && !draft.isDraftOrderIsAscending()) {
                 draft.setDraftOrderIsAscending(true);
                 draft.setRound(draft.getRound() + 1);
+                draft.setCurrentPickInRound(1);
             } else {
                 throw new RuntimeException("The SetValueForNextPick method reached code that should be unreachable during a snake draft. Current team picking = " + draft.getCurrentTeamPicking()
                         + ", Number of teams = " + draft.getNumberOfTeams() + ", DraftOrderIsAscending = " + draft.isDraftOrderIsAscending());

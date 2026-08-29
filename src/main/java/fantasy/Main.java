@@ -15,5 +15,6 @@ public class Main {
         DraftController draft = new DraftController(new DraftBoard(draftSettings), userInput);
         draft.setInitialDraftBoard();
         draft.run();
+
     }
 }

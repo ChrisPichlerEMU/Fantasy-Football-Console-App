@@ -7,18 +7,18 @@ public class Player {
     private String lastName;
     private String team;
     private int rank;
-    private int tier;
+    private int positionalRanking;
     private Position position;
     private String[] attributes;
 
     public Player() {}
 
-    public Player(String firstName, String lastName, String team, int rank, int tier, Position position, String[] attributes) {
+    public Player(String firstName, String lastName, String team, int rank, int positionalRanking, Position position, String[] attributes) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.team = team;
         this.rank = rank;
-        this.tier = tier;
+        this.positionalRanking = positionalRanking;
         this.position = position;
         this.attributes = attributes;
     }
@@ -35,9 +35,13 @@ public class Player {
         return firstName + " " + lastName;
     }
 
+    public Position getPosition() {
+        return position;
+    }
+
     @Override
     public String toString() {
-        String playerMinusAttributes = firstName + " " + lastName + ", " + position.toString() + ", " + team + ", Rank: " + rank + ", Tier: " + tier;
+        String playerMinusAttributes = firstName + " " + lastName + ", " + position.toString() + ", " + team + ", Rank: " + rank + ", Positional Rank: " + positionalRanking;
 
         if (attributes.length == 0) {
             return playerMinusAttributes;

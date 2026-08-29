@@ -7,6 +7,7 @@ public class DraftBoard {
     private Team[] teams;
     private int draftPickOfUser;
     private int round;
+    private int currentPickInRound;
     private int currentTeamPicking;
     private int numberOfTeams;
     private final boolean isSnakeDraft;
@@ -16,6 +17,7 @@ public class DraftBoard {
         undraftedPlayers = new ArrayList<>();
         draftPickOfUser = draftSettings.getDraftPickOfUser();
         round = 1;
+        currentPickInRound = 1;
         currentTeamPicking = 1;
         this.numberOfTeams = draftSettings.getNumberOfTeams();
         teams = new Team[numberOfTeams];
@@ -49,6 +51,14 @@ public class DraftBoard {
 
     public void setRound(int round) {
         this.round = round;
+    }
+
+    public int getCurrentPickInRound() {
+        return currentPickInRound;
+    }
+
+    public void setCurrentPickInRound(int currentPickInRound) {
+        this.currentPickInRound = currentPickInRound;
     }
 
     public int getCurrentTeamPicking() {
