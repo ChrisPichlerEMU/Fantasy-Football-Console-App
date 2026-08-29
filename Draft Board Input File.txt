@@ -9,7 +9,7 @@ Taylor, Jonathan, IND, 8, 4, RB, Bowen Favorite Player (ESPN)
 Cook, James, BUF, 9, 5, RB, Do Draft List (ESPN)
 Lamb, CeeDee, DAL, 10, 5, WR
 Achane, De'Von, MIA, 11, 6, RB, PLAYER TO PASS ON (ESPN)
-Walker, Kenneth, KC, 12, 7, RB, DO NOT DRAFT (ESPN), Breakout Candidate (ESPN), Great Opportunity (ESPN), Breakout Candidate (UDK)
+Walker, Kenneth, KC, 12, 7, RB, DO NOT DRAFT (ESPN), Breakout Candidate (ESPN), Great Opportunity (ESPN), Breakout Candidate (UDK), My Guy (UDK)
 Brown, Chase, CIN, 13, 8, RB, Do Draft List (ESPN)
 Jefferson, Justin, MIN, 16, 6, WR, Do Draft List (ESPN)
 Bowers, Brock, LV, 15, 1, TE
@@ -17,9 +17,9 @@ McBride, Trey, ARI, 17, 2, TE
 Brown, A.J., NE, 18, 7, WR, DO NOT DRAFT (ESPN)
 Olave, Chris, NO, 19, 8, WR
 Collins, Nico, HOU, 20, 9, WR
-Wilson, Garrett, NYJ, 22, 11, WR, Draft Day Target (ESPN)
+Wilson, Garrett, NYJ, 22, 11, WR, Draft Day Target (ESPN), My Guy (UDK)
 London, Drake, ATL, 21, 10, WR
-Hampton, Omarion, LAC, 23, 10, RB, Draft Day Target (ESPN), Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN), Breakout Candidate (UDK)
+Hampton, Omarion, LAC, 23, 10, RB, Draft Day Target (ESPN), Do Draft List (ESPN), RB, Bowen Favorite Player (ESPN), Breakout Candidate (UDK), My Guy (UDK)
 Pickens, George, DAL, 24, 12, WR
 Rice, Rashee, KC, 25, 13, WR, DO NOT DRAFT (ESPN)
 Jeanty, Ashton, LV, 14, 9, RB
@@ -40,7 +40,7 @@ Hall, Breece, NYJ, 40, 16, RB, Draft Day Target (ESPN)
 Burden, Luther, CHI, 41, 23, WR, RB, Bowen Favorite Player (ESPN)
 Swift, D'Andre, CHI, 42, 17, RB, Good Value (UDK)
 Washington, Parker, JAX, 46, 26, WR, Sleeper (UDK)
-Watson, Christian, GB, 43, 24, WR, Top Late Round Flyer (ESPN), Breakout Candidate (UDK)
+Watson, Christian, GB, 43, 24, WR, Top Late Round Flyer (ESPN), Breakout Candidate (UDK), My Guy (UDK)
 Williams, Javonte, DAL, 44, 18, RB, Do Draft List (ESPN), Most Underrated (ESPN), Good Value (UDK)
 McLaurin, Terry, WAS, 45, 25, WR, Draft Day Target (ESPN), Best Bounce Back Player (ESPN), Great Opportunity (ESPN), Good Value (UDK)
 Williams, Jameson, DET, 47, 27, WR, Do Draft List (ESPN)
@@ -77,7 +77,7 @@ Diggs, Stefon, WAS, 76, 41, WR
 Jacobs, Josh, GB, 35, 13, RB, Do Draft List (ESPN)
 Sutton, Courtland, DEN, 77, 42, WR, BUST (UDK)
 Addison, Jordan, MIN, 79, 43, WR, Do Draft List (ESPN)
-Stribling, De'Zhaun, SF, 88, 46, WR, Drumbeat Player (ESPN), Sleeper (UDK)
+Stribling, De'Zhaun, SF, 88, 46, WR, Drumbeat Player (ESPN), Sleeper (UDK), My Guy (UDK)
 Pitts Sr., Kyle, ATL, 80, 9, TE, DO NOT DRAFT (ESPN)
 Croskey-Merritt, Jacory, WAS, 78, 28, RB, Sleeper (UDK)
 Gainwell, Kenny, TB, 82, 30, RB, Draft Day Target (ESPN), Do Draft List (ESPN), Top Late Round Flyer (ESPN)
